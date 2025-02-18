@@ -73,11 +73,11 @@ export default function App(){
         ))}
        
         <button
-          disabled = {currentPage === 0}
+          disabled = {currentPage === noofpages-1}
           className='page-number'
           onClick = {() => goToNextPage()}
         >
-          ◀️
+          ▶️
         </button>
       </div>
 
